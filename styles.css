@@ -1,0 +1,137 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #00e1ff;
+    color: #ffffff;
+    line-height: 1.6;
+    position: relative; /* Ensure relative positioning */
+  }
+  
+  /* Background image */
+  .background-image {
+    position: fixed; /* Fixed position to cover the entire viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img1.jpg'); /* Set your background image */
+    background-size: cover;
+    z-index: -1; /* Set a lower z-index to keep it behind other content */
+  }
+  
+  /* Container class for centralizing content */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative; /* Ensure relative positioning */
+  }
+  
+  /* Navigation styling */
+  nav {
+    background-color: #000000;
+    padding: 1rem 0;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Header styling */
+  .hero {
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 5px 5px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* About Section styling */
+  .about {
+    padding: 100px 0;
+  }
+  
+  .about h2 {
+    margin-bottom: 30px;
+  }
+  
+  /* Services Section styling */
+  .services {
+    padding: 100px 0;
+  }
+  
+  .services h2 {
+    margin-bottom: 30px;
+  }
+  
+  .service {
+    margin-bottom: 30px;
+  }
+  
+  .service h3 {
+    margin-bottom: 10px;
+  }
+  
+  /* Contact Section styling */
+  .contact {
+    background-color: #007bff;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    margin-bottom: 30px;
+  }
+  
+  .contact p {
+    margin-bottom: 30px;
+  }
+  
+  /* Footer styling */
+  .footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
